@@ -18,3 +18,15 @@ sudo make altinstall
 $ python
 python2.7         python2.7-config  python3           python3.11
 ```
+
+## 2. Pārslēgšanās starp virtuālajām vidēm
+
+```shell
+python3.11 -m venv venv3.11
+source venv3.11/bin/activate
+deactivate
+
+python2.7 -m venv venv2.7
+source venv2.9/bin/activate
+deactivate
+```

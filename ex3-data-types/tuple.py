@@ -1,4 +1,4 @@
-forbidden_words = {'error', 'fail', 'warning'}
+forbidden_words = ('error', 'fail', 'warning')
 
 message = 'this error contains some failures and warnings, please correct all failed errorlements and warninged failures.'
 
